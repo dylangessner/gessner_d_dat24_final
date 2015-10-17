@@ -1,0 +1,19 @@
+Comments on the paper:
+
+I really like how you summarize everything from end-to-end on this paper. It’s a cohesive  and thorough description. I understand your project a lot better after reading this paper, and I think you have a great model.
+
+I would caution against making a bold claim such as: “PACs are clearly eager to throw gobs of money at the leading candidates in that race with hopes to influence the outcome and have some pull if their supported candidate wins.” The relationship between money and race result may just be a correlation, not causation. There is a chapter in the book Freakonomics that touches on this. “A winning candidate can cut his spending in half and lose only 1 percent of the vote. Meanwhile, a losing candidate who doubles his spending can expect to shift the vote in his favor by only that same 1 percent.”* (http://freakonomics.com/2012/01/12/does-money-really-buy-elections-a-new-marketplace-podcast-full-transcript/) It could be the case that money follows winning candidates, and not the other way around. 
+
+I would also consider re-running the model without the “incumbent” variable (feature) or without the incumbents running for office (row) to predict winners/losers. 
+This was an insight that I got when I discussed my project with Mason. When I ran my model, I included the “elite_years” (a feature that tells you how many times Yelp has given an elite status to a user) to predict my trendsetters. In a way, using “elite_years” is kind of ‘cheating’ because these users are already tagged as frontrunners. Similarly, the incumbents in your model are also tagged as frontrunners.
+
+In this project, you already have a really good prediction of winner/loser of 97%, so
+you may not need further enhancements. If you are still looking to improve further, or if you’re looking to make your prediction more interesting, I would consider looking into polling results whenever available, as well as other demographic markers like age, gender (or even religion?). 
+
+One area that I would work on if I were you is data visualization. You
+have a great model, but I don't see many visualization on your project.
+
+One last note… I wrote a lot about improvements above - but that doesn’t mean that your current model isn’t great already! 
+
+
+* There are criticisms against this claim too, considering that it’s impossible to hold all variables constant to arrive at this result. Just saying that correlation =/= causation
