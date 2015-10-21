@@ -1,4 +1,5 @@
 # gessner_d_dat24_final
 Work from General Assembly Data Science, cohort 24
 
-Please review project_modeling_dg.ipynb and read project_paper_dg.docx
+Project investigates the effect of PAC donations on election outcome in the 2012 federal election cylce.
+Data comes from the Center for Responsive Politics (opensecrets.org).
